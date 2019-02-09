@@ -87,31 +87,5 @@ document.addEventListener('DOMContentLoaded', () => {
   const giftList = document.querySelector(".gift-list")
   gifts.forEach(function(giftObject){
     imageNameAppend(giftObject)
-    // let imageUrl = giftObject["image"]
-    // let imageName = giftObject["name"]
-
-    // const giftImg = document.createElement("IMG")
-    // giftImg.src = imageUrl
-    // const giftName = document.createElement("p")
-    // giftName.innerText = imageName
-    // const liName = document.createElement("li")
-    // const liImg = document.createElement("li")
-    // liName.appendChild(giftName)
-    // liImg.appendChild(giftImg)
-    // giftList.appendChild(liName)
-    // giftList.appendChild(liImg)
-    // searchForm.addEventListener('input',function(event){
-    //   if (imageName.includes(event.target.value)){
-    //     liName.hidden = false
-    //     liImg.hidden = false
-    //
-    //   }else{
-    //     liName.hidden = true
-    //     liImg.hidden = true
-    //   }
-    // })
-
-
   })
-
 })
